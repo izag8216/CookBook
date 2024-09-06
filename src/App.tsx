@@ -2,8 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Provider as PaperProvider } from 'react-native-paper';
-import MainScreen from './src/screens/MainScreen';
-import RecipeDetailScreen from './src/screens/RecipeDetailScreen';
+import MainScreen from '../src/screens/MainScreen';
+import RecipeDetailScreen from '../src/screens/RecipeDetailScreen';
 
 export type RootStackParamList = {
   Main: undefined;
